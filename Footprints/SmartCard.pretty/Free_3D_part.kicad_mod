@@ -1,0 +1,21 @@
+(footprint "Free_3D_part" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 021a4c33-f943-45de-bdc7-772fb7c68514)
+  )
+  (fp_text value "Free_3D_part" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2fda0e18-a05c-4879-a503-60d1651ed13f)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5772595d-b46d-4c09-8468-a238c78447c5)
+  )
+  (model "G:/My Drive/projeler/CustomParts/3D/Pil ctechi.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
