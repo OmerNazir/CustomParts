@@ -1,10 +1,10 @@
-(footprint "MICRO SWITCH" (version 20221018) (generator pcbnew)
+(footprint "Switch_Micro" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (fp_text reference "REF**" (at -6.75 -2.125 90 unlocked) (layer "F.SilkS")
       (effects (font (size 0.525 0.525) (thickness 0.13125)) (justify left bottom))
     (tstamp 333c5174-09b0-4ab4-ba3d-3ec4b5c40232)
   )
-  (fp_text value "SW-SPDT" (at -9.8933 -2.8829 90 unlocked) (layer "F.SilkS") hide
+  (fp_text value "SW-SPDT" (at -6.62 -3.68 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
     (tstamp 50ef4c0e-885d-4669-afca-1b27c13a4773)
   )
@@ -33,9 +33,9 @@
   (pad "1" thru_hole circle (at -5.075 -0.00001) (size 2.4 2.4) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 85c22275-4076-40fc-bd2e-f47da8135a1d))
   (pad "2" thru_hole circle (at 5.07499 -0.00001) (size 2.4 2.4) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 0319783a-21d6-4061-88f3-ccb4b3c1cc3f))
   (pad "3" thru_hole circle (at 0.00002 -0.00001) (size 2.4 2.4) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 654f8df0-ba04-4e8d-9440-65d9e98fb499))
-  (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/switch.STEP"
-    (offset (xyz 6.4949 2.93795 0))
+  (model ":MY3DPARTS:Switch_Micro.step"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 -0 0))
+    (rotate (xyz 0 0 0))
   )
 )
